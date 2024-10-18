@@ -60,9 +60,9 @@ feature_dict = {'age': ['0', '1'],
 label_dict = {'y': ['yes', 'no']}
 
 # Random Forest parameters
-num_trees = 300
+num_trees = 500
 max_depth = 10
-subset_size = 2
+subset_size = 6
 
 train_errors = np.zeros((num_trees,))
 test_errors = np.zeros((num_trees,))
